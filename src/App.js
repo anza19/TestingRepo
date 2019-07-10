@@ -1,9 +1,11 @@
 import React from 'react';
+import Header from "./components/header/";
+import './app.scss';
 
 function App() {
   return (
     <div className="App">
-    Empty Application.
+      <Header header="Muhammad Anza Khan! :)"/>
     </div>
   );
 }
